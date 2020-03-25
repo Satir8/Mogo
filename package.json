@@ -1,5 +1,5 @@
 {
-  "name": "filmoteka",
+  "name": "pet_mogo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,10 +9,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://Satir8.github.io/icecream-with-passion",
+  "homepage": "https://Satir8.github.io/Pet_Mogo",
   "repository": {
     "type": "git",
-    "url": "git+https://Satir8.github.io/icecream-with-passion"
+    "url": "git+https://Satir8.github.io/Pet_Mogo"
   },
   "author": "Gregory Yakovina <g.iakovyna@gmail.com>",
   "license": "MIT",

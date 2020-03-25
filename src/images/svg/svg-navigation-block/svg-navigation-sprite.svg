@@ -7,8 +7,8 @@
   </symbol>
 </svg>
 <svg class="icon">
-  <use xlink:href="#basket"></use>
+  <use href="#basket"></use>
 </svg>
 <svg class="icon">
-  <use xlink:href="#glass"></use>
+  <use href="#glass"></use>
 </svg>
