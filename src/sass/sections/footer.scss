@@ -1,0 +1,178 @@
+/* FOOTER SECTION */
+
+.ftr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid #e7e7e7;
+  padding: 10px 0px 12px 0px;
+
+  &__text {
+    font-family: $font-Montserrat;
+    font-size: 14px;
+    color: $color-dark;
+  }
+
+  &__date::before {
+    content: '\00A9';
+    padding-right: 4px;
+    padding-left: 2px;
+  }
+
+  &__link {
+    color: $color-red;
+  }
+
+  &__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 380px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+
+    &:hover .ftr__sbmt-btn {
+      background-color: $color-gold;
+    }
+
+    &-text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 24px;
+      font-style: italic;
+      color: #cccccc;
+      min-width: 230px;
+      min-height: 40px;
+      border: 1px solid #e7e7e7;
+      padding-left: 12px;
+    }
+    
+    &:hover {
+      -webkit-animation-name: jello;
+      animation-name: jello;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1;
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+      animation-direction: alternate-reverse;
+  
+      @-webkit-keyframes jello {
+        from,
+        11.1%,
+        to {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      
+        22.2% {
+          -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+          transform: skewX(-12.5deg) skewY(-12.5deg);
+        }
+      
+        33.3% {
+          -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+          transform: skewX(6.25deg) skewY(6.25deg);
+        }
+      
+        44.4% {
+          -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+          transform: skewX(-3.125deg) skewY(-3.125deg);
+        }
+      
+        55.5% {
+          -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+          transform: skewX(1.5625deg) skewY(1.5625deg);
+        }
+      
+        66.6% {
+          -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+          transform: skewX(-0.78125deg) skewY(-0.78125deg);
+        }
+      
+        77.7% {
+          -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+          transform: skewX(0.390625deg) skewY(0.390625deg);
+        }
+      
+        88.8% {
+          -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+          transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+        }
+      }
+  
+      @keyframes jello {
+        from,
+        11.1%,
+        to {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      
+        22.2% {
+          -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+          transform: skewX(-12.5deg) skewY(-12.5deg);
+        }
+      
+        33.3% {
+          -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+          transform: skewX(6.25deg) skewY(6.25deg);
+        }
+      
+        44.4% {
+          -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+          transform: skewX(-3.125deg) skewY(-3.125deg);
+        }
+      
+        55.5% {
+          -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+          transform: skewX(1.5625deg) skewY(1.5625deg);
+        }
+      
+        66.6% {
+          -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+          transform: skewX(-0.78125deg) skewY(-0.78125deg);
+        }
+      
+        77.7% {
+          -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+          transform: skewX(0.390625deg) skewY(0.390625deg);
+        }
+      
+        88.8% {
+          -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+          transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+        }
+      }
+    }
+  }
+
+  &__sbmt-btn {
+    font-family: $font-Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    color: $color-white;
+    text-transform: uppercase;
+    background-color: #95e1d3;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    -webkit-transition-property: background-color, border;
+    -o-transition-property: background-color, border;
+    transition-property: background-color, border;
+    -webkit-transition-duration: 400ms;
+    -o-transition-duration: 400ms;
+    transition-duration: 400ms;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+  }
+}
