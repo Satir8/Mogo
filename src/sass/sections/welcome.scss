@@ -1,6 +1,9 @@
 /* WELCOME SECTION */
 
 .welcome-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
   background-image: -webkit-gradient(
       linear,
       left bottom,
@@ -24,8 +27,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  padding: 200px 0 100px 0;
 
   &__container {
     width: 880px;
