@@ -9,10 +9,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://Satir8.github.io/Pet_Mogo",
+  "homepage": "https://Satir8.github.io/Mogo",
   "repository": {
     "type": "git",
-    "url": "git+https://Satir8.github.io/Pet_Mogo"
+    "url": "git+https://Satir8.github.io/Mogo"
   },
   "author": "Gregory Yakovina <g.iakovyna@gmail.com>",
   "license": "MIT",
